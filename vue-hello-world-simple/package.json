@@ -1,0 +1,96 @@
+{
+  "_from": "vue-hello-world-simple",
+  "_inBundle": false,
+  "_integrity": "sha512-Jescmb++wId6Yo27NhhXQ8RPbx4UpxnUdMyxBfw+88YBCMRJNpnSPMSPPB/fWW8rTUyXkSE125qdEYBeZ1nmUg==",
+  "_location": "/vue-hello-world-simple",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-hello-world-simple",
+    "name": "vue-hello-world-simple",
+    "escapedName": "vue-hello-world-simple",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-hello-world-simple/-/vue-hello-world-simple-0.1.3.tgz",
+  "_shasum": "d8e05840a0d132157bb9e62910e181804c84f643",
+  "_spec": "vue-hello-world-simple",
+  "_where": "C:\\Users\\drewr\\OneDrive\\Documents\\Senior Year Sem. 1\\IST-402\\boilerplates",
+  "author": "Tushar Gugnani <tushar@5balloons.info>",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/tushargugnani/vue-hello-world-simple/issues"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "deprecated": false,
+  "description": "A simple vuejs Hello World Plugin",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js",
+    "plugins/*"
+  ],
+  "homepage": "https://github.com/tushargugnani/vue-hello-world-simple#readme",
+  "keywords": [
+    "keywords",
+    "go",
+    "here"
+  ],
+  "license": "MIT",
+  "main": "./dist/vue-hello-world-simple.common.js",
+  "name": "vue-hello-world-simple",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushargugnani/vue-hello-world-simple.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name vue-hello-world-simple ./src/install.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.1.3"
+}
